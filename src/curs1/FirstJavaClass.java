@@ -8,8 +8,6 @@ public class FirstJavaClass {
 	
 	int age = 23;
 	
-	
-	
 	public static void main(String[] args) {
 		
 		FirstJavaClass obiect = new FirstJavaClass();
@@ -18,6 +16,7 @@ public class FirstJavaClass {
 	
 	//metoda
 	public void greetings() {
+		
 		System.out.println("Hello " + nume);
 	}
 
