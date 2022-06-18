@@ -32,7 +32,7 @@ public class SwitchExample {
 			break;
 		default:
 			System.out.println("Nota invalida!");
-			break;
+			//break;
 		}
 		
 	}

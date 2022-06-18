@@ -56,7 +56,6 @@ public class SwitchCalculator {
 			break;
 		default:
 			System.out.println("Wrong operation! Please insert only : '+' '-' '*' '/'");
-			break;
 		}
 		
 	}

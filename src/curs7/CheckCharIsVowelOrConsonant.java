@@ -26,7 +26,6 @@ public class CheckCharIsVowelOrConsonant {
 			break;
 		default:
 			System.out.println("Is not vowel");
-			break;
 		}
 		
 	}
