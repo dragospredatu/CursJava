@@ -19,19 +19,12 @@ public class HomeworkEx2 {
 						}
 					}
 					if(!nameAlreadyInDuplicatesArray) {
+						System.out.println("Nume duplicat " + myStringArray[i]);
 						listOfDuplicates[index] = myStringArray[i];
 						index++;
 					}
 				}
 			}
 		}
-		
-		for(int i = 0; i < listOfDuplicates.length; i++) {
-			if(listOfDuplicates[i] != null) {
-				System.out.println("Nume duplicat " + listOfDuplicates[i]);
-			}
-		}
-		
 	}
-
 }
